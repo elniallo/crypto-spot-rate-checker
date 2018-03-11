@@ -1,0 +1,21 @@
+{
+  "name": "spot-rates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "cd src && ts-node main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/glosfer/spot-rates.git"
+  },
+  "author": "niall@glosfer.com",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/glosfer/spot-rates#readme",
+  "dependencies": {
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  }
+}
